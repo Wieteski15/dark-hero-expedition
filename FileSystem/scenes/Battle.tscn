@@ -1,0 +1,12 @@
+[gd_scene load_steps=6 format=3 uid="uid://cd4swvrgtibjy"]
+
+[ext_resource type="Script" path="res://FileSystem/system/BattleSystem.gd" id="1_e1aj5"]
+[ext_resource type="Script" uid="uid://c6p5i78g2jt8x" path="res://FileSystem/data/character/Character.gd" id="2_s2c87"]
+[ext_resource type="Resource" uid="uid://dehmwv3t7ge8c" path="res://FileSystem/data/character/Hero_frontline.tres" id="3_e1aj5"]
+[ext_resource type="Script" uid="uid://iexdromeeie3" path="res://FileSystem/data/enemies/Enemy.gd" id="4_iexcy"]
+[ext_resource type="Resource" uid="uid://bm1tyluxqpui" path="res://FileSystem/data/enemies/enemy_heavy.tres" id="5_e1aj5"]
+
+[node name="Battle" type="Node"]
+script = ExtResource("1_e1aj5")
+heroes = Array[ExtResource("2_s2c87")]([ExtResource("3_e1aj5")])
+enemies = Array[ExtResource("4_iexcy")]([ExtResource("5_e1aj5")])
