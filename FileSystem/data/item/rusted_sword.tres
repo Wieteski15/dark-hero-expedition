@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://ce34jt7nouufu"]
+
+[ext_resource type="Script" uid="uid://di6qacx2tmy0p" path="res://FileSystem/data/item/item.gd" id="1_rk3gh"]
+
+[resource]
+script = ExtResource("1_rk3gh")
+attack_bonus = 4
+curse = "Fragile"
+metadata/_custom_type_script = "uid://di6qacx2tmy0p"
