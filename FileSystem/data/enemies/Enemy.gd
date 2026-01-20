@@ -10,7 +10,3 @@ class_name Enemy
 @export var speed: float = 1.0
 
 @export var behavior: String = "focus_weak"
-
-@export var is_alive: bool = true
-
-@export var action_timer: float = 0.0

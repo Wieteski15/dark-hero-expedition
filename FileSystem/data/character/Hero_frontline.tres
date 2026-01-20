@@ -4,8 +4,8 @@
 
 [resource]
 script = ExtResource("1_dk68y")
-name = "Hero 1"
 max_hp = 130
 hp = 130
+attak = 14
 speed = 0.8
 metadata/_custom_type_script = "uid://c6p5i78g2jt8x"
