@@ -11,5 +11,10 @@ config_version=5
 [application]
 
 config/name="DarkHeroExpedition"
+run/main_scene="uid://dqhprpg0wk6hu"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+
+[autoload]
+
+GameState="*res://FileSystem/core/GameState.gd"
+WorldState="*res://FileSystem/core/WorldState.gd"
