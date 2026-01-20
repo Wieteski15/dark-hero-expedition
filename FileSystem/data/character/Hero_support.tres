@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Character" load_steps=2 format=3 uid="uid://3iv3ed3uvccx"]
+
+[ext_resource type="Script" uid="uid://c6p5i78g2jt8x" path="res://FileSystem/data/character/Character.gd" id="1_5i5go"]
+
+[resource]
+script = ExtResource("1_5i5go")
+name = "hero 3"
+attack = 8
+speed = 1.2
+metadata/_custom_type_script = "uid://c6p5i78g2jt8x"

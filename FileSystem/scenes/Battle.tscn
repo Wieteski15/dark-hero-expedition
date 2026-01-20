@@ -1,0 +1,20 @@
+[gd_scene load_steps=8 format=3 uid="uid://cbwgjlvudaob1"]
+
+[ext_resource type="Script" uid="uid://dxbhwrn521s78" path="res://FileSystem/system/AutoBattleSystem.gd" id="1_yoq3e"]
+[ext_resource type="Resource" uid="uid://dehmwv3t7ge8c" path="res://FileSystem/data/character/Hero_frontline.tres" id="2_t5vnk"]
+[ext_resource type="Resource" uid="uid://dfge03gcprrdt" path="res://FileSystem/data/enemies/enemy_basic.tres" id="3_2e20u"]
+[ext_resource type="Resource" uid="uid://b2cvutgjermsw" path="res://FileSystem/data/character/Hero_attacker.tres" id="3_iexcy"]
+[ext_resource type="Resource" uid="uid://bm1tyluxqpui" path="res://FileSystem/data/enemies/enemy_heavy.tres" id="4_e1aj5"]
+[ext_resource type="Resource" uid="uid://3iv3ed3uvccx" path="res://FileSystem/data/character/Hero_support.tres" id="4_fdxyd"]
+[ext_resource type="Resource" uid="uid://d4kcsrsrqnexx" path="res://FileSystem/data/character/Hero_magic.tres" id="5_n7wwu"]
+
+[node name="Battle" type="Node"]
+
+[node name="Hero" type="Node" parent="."]
+
+[node name="Enemis" type="Node" parent="."]
+
+[node name="AutoBattlesystem" type="Node" parent="."]
+script = ExtResource("1_yoq3e")
+heroes = [ExtResource("2_t5vnk"), ExtResource("3_iexcy"), ExtResource("4_fdxyd"), ExtResource("5_n7wwu")]
+enemies = [ExtResource("3_2e20u"), ExtResource("4_e1aj5")]
