@@ -4,10 +4,8 @@
 .export/
 /android/
 
-# Logs & temp
 *.log
 *.tmp
 
-# OS generated files
 .DS_Store
-Thumbs.db
+thumbs.db
